@@ -1,0 +1,118 @@
+/**/
+
+
+/*copy__________________________________ */
+
+
+.copy {
+  background: url("../img/firstview.jpg") no-repeat top;
+  width: 100%;
+  height: 400px;
+  font-size: 40px;
+  color: rgb(255,255,255);
+  text-align: center;
+  line-height: 400px;
+  display: inline-block;
+}
+
+
+/* 共通レイアウト__________________________________ */
+
+
+.about , .blog , .form {
+  margin-top: 70px;
+}
+
+.common__ttl {
+  margin-bottom: 40px;
+  font-size: 25px;
+  text-align: center;
+}
+
+
+/* about__________________________________ */
+
+
+.about__txt {
+  text-align: center;
+  line-height: 150%;
+}
+
+.about__txt--strong {
+  font-weight: bolder;
+}
+
+
+/* blog__________________________________ */
+
+
+.blog__article {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog__section img {
+  width: 300px;
+  height: 220px;
+}
+
+.blog__ttl {
+  width: 310px;
+  padding-top: 7px;
+  line-height: 150%;
+}
+
+
+/* form__________________________________ */
+
+
+.form__list {
+  width: 780px;
+  margin: 0 auto;
+  display: block;
+}
+
+.form__list > label{
+  margin-bottom: 15px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-between;
+  display: block;
+}
+
+input:nth-child(1) {
+  width: 500px;
+}
+
+textarea {
+  width: 500px;
+  height: 150px;
+}
+
+select {
+  transform: translate(-379px,0);
+}
+
+.form__txt--move{
+  transform: translate(0,136px);
+}
+
+.button {
+  width: 430px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#reset,#submit{
+  width: 200px;
+  padding: 5px 0;
+  border: none;
+}
+
+#submit {
+  background-color: rgb(32,178,170);
+  color: rgb(255,255,255);
+}

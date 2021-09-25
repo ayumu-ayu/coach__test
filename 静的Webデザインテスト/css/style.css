@@ -1,0 +1,241 @@
+
+body {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+
+/* header______________________ */
+
+
+header {
+  height: 70px;
+  color: #55bbbb;
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+  text-align: right;
+  line-height: 70px;
+}
+
+
+/* main--comoon______________________ */
+
+
+main {
+  font-family: 'Shippori Mincho', serif;
+  font-size: 24px;
+}
+
+.txt--big {
+  font-size: 40px;
+}
+
+
+/* theme______________________ */
+
+
+.theme {
+  background: url("../img/fv.png") no-repeat bottom/cover;/*  coverの方が収まるね*/
+  width: 100%;
+  height: 500px;
+}
+
+.themeCopy {
+  padding-left: 20px;
+  font-size: 40px;
+  line-height: 250%;
+}
+
+.themeCopy--str01 , .themeCopy--str02 {
+  font-size: 60px;
+}
+
+.themeCopy--str01 {
+  color: #55bbbb;
+}
+
+.price {
+  width: fit-content;
+  padding:20px 0 20px 110px;
+  position: relative;
+}
+
+.price__txt01 {
+  color: #55bbbb;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.price__txt02 {
+  color: #ff4384;
+}
+
+.price::before {
+  content: "今だけ";
+  background-color: #ff4384;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  color: #ffffff;
+  text-align: center;
+  line-height: 75px;
+  display: inline-block;
+  position: absolute;
+  left: 20px;
+}
+
+.campaign {
+  background-color: #ff4384;
+  width: fit-content;
+  margin:30px 20px;
+  padding: 20px;
+  border-radius: 35px;
+  box-shadow: 5px 5px 10px #ff4384;
+  box-shadow: 5px 5px 20px #ff4384;
+  color: #ffffff;
+}
+
+.themeTxt {
+  background-color: #55bbbb;
+  width: 100%;
+  height: 100px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 100px;
+  position: relative;
+}
+
+.themeTxt__block {
+  background-color: #55bbbb;
+  width: 40px;
+  height: 40px;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 50%;
+  top: 79%;
+}
+
+
+/* problem______________________ */
+
+
+.problem {
+  width: 1000px;
+  height: fit-content;
+  margin: 60px auto 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.problem img {
+  width: 200px;
+  height: fit-content;
+}
+
+.problem__list {
+  width: 480px;
+  height: fit-content;
+  box-sizing: border-box;
+  padding: 30px 20px 20px 45px;
+  border: solid 2px #55bbbb;
+  border-radius: 30px;
+  color: #55bbbb;
+  line-height: 150%;
+  list-style: none;
+}
+
+.problem__list> li {
+  width: 90%;
+  margin-bottom: 20px;
+  border-bottom: solid 2px #55bbbb;
+  text-align: right;
+  display: inline-block;
+}
+
+.problem__list ::before {
+  content: "";
+  background: url("../img/check.svg") no-repeat center;
+  width: 18px;
+  height: 18px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.problem__txt {
+  background-color: #55bbbb;
+  width: 100%;
+  height: 240px;
+  box-sizing: border-box;
+  padding-top: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 250%;
+}
+
+
+.problem__txt > span:nth-of-type(1) {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bolder;
+}
+
+.problem__txt > span:nth-of-type(3) {
+ color: #ff4384;
+}
+
+
+/* point______________________ */
+
+
+.point {
+  width: 1000px;
+  height: fit-content;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pointBlock {
+  width: 29%;
+  height: fit-content;
+  padding: 10px;
+  border: solid 2px #55bbbb;
+  position: relative;
+}
+
+.pointBlock__logo {
+  background-color: #ffffff;
+  width: fit-content;
+  height: fit-content;
+  padding: 5px;
+  color: #55bbbb;
+  font-size: 20px;
+  font-family: 'Amatic SC', cursive;
+  position: absolute;
+  left: 12px;
+  top: -15px;
+}
+
+.pointBlock__ttl {
+  margin: 20px 0;
+  line-height: 150%;
+}
+
+.pointBlock__ttl--color {
+  color: #ff4384;
+}
+
+.pointBlock__txt {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+
+/* footer______________________ */
+
+
+footer {
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+}
+
